@@ -1,0 +1,108 @@
+
+/** HEADER **/
+/* Цвет поля */
+#header-nav {
+  background-color: #8d8d8d;
+  border-radius: 0;
+  border: 0;
+}
+
+
+/* рег полож по выс назв рест */
+.navbar-brand {
+  padding-top: 16px;
+}
+/* Красивый текст */
+.navbar-brand h1 { /* Restaurant name */
+  /* font-family: 'Lora', serif; */
+  /* цвет текста назв рестор */
+  color: #222;
+  font-size: 1.8em;
+  /* text-transform: uppercase; */
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+
+
+
+/* рег цвета меню */
+#nav-list 
+/*отступ сверху*/
+{
+  margin-top: 5px;
+  /* цвет строк меню */
+  background: blue;
+}
+#nav-list a {
+  /* цвет текста менюшек */
+  color: white;
+  text-align: center;
+}
+/* цвет строк менюшек */
+#nav-list a:hover {
+  /* подсветка строк меню */
+  background: yellow;
+}
+/* Высота значков менюшек */
+#nav-list a span {
+  font-size: 1.5em;
+}
+
+body {font-size: 25px;
+  color: black;
+  background-color: #ebebeb;
+  font-family: 'Oxygen', sans-serif;
+  text-indent: 20px;
+}
+/* div#container{
+  position: relative;
+}*/
+
+ .row {
+  width: 95%;
+  margin-left: 40px;
+  margin-left: 40px;
+  margin-bottom: 20px;
+  padding-left: 50px;
+
+}
+
+p {
+  border: 1px solid black;
+  background-color: #999999;
+  
+  height: 350px;
+  
+  font-family: Arial;
+  color: black;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+.block {
+  background-color: #ebebeb;
+}
+
+/********** Large devices only **********/
+@media (min-width: @screen-lg-min) {
+.col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+  float: left;
+
+}
+
+}
+
+/********** Medium devices only **********/
+@media ( min-width: @screen-md-min) and (max-width: @screen-md-max) {
+  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+    float: left;
+  }
+}
+
+@media ( min-width: @screen-sm-min) and (max-width: @screen-sm-max) {
+  .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
+    float: left;
+  }
+}
